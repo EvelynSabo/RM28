@@ -1,7 +1,7 @@
 # RM(2,8) bound 88 ≤ ρ(2,8) ≤ 91: independent recomputation for Google Colab
 
 `rm28_verify.py` recomputes, from scratch, every finite enumeration in the dossier
-*“A computer-assisted bound for the covering radius of RM(2,8)”* (RM28.tex, 17 Oct 2026). It writes
+*“The Covering Radius of RM(2,8) is Between 88 and 91”* (RM28.tex, 17 Oct 2026). It writes
 one JSON certificate per major part of the proof. `RM28_colab.ipynb` is the same program wrapped in a
 self-contained Colab notebook: the script is embedded, so no upload is needed.
 
