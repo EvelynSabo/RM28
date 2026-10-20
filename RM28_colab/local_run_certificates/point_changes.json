@@ -1,0 +1,48 @@
+{
+ "certificate": "point_changes",
+ "claim": "Lemma 5.1 (two quartics, one point each)",
+ "status": "PASS",
+ "results": {
+  "distance36_classes": 1636,
+  "distance36_cover_quadratics": 11578,
+  "distance38": {
+   "classes": 33,
+   "point_changes": 4224,
+   "all_min_equal": 37,
+   "min_ok": true,
+   "max_le_55": true,
+   "N37_gt_N55": true,
+   "min_N37_minus_N55": 266,
+   "method_D_crosschecked": 115
+  },
+  "distance40": {
+   "classes": 4,
+   "point_changes": 512,
+   "all_min_equal": 39,
+   "min_ok": true,
+   "max_le_53": true,
+   "N39_gt_N53": true,
+   "min_N39_minus_N53": 3504,
+   "method_D_crosschecked": 14
+  },
+  "paper_values": {
+   "distance36_cover_quadratics": 30539,
+   "distance38_cases": 4224
+  },
+  "logic": "minima <= 35: 35+55=90; 37/39: 37+53=90; 37/37 and 39/39 by the strict counting inequalities; an odd+odd split has even weight, so < 92 means <= 90."
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e28ce4db195f5c49a65072dd76a7057ab3067300fdb64cd2456bc8e4a70e4272",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T04:15:11.483111+00:00",
+ "wall_seconds": 84.85
+}

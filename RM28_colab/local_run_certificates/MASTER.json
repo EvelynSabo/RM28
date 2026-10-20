@@ -1,0 +1,74 @@
+{
+ "certificate": "MASTER",
+ "claim": "88 <= rho(2,8) <= 91 (conditional on external inputs)",
+ "status": "PASS",
+ "results": {
+  "stage_status": {
+   "catalogues": "PASS",
+   "selftest": "PASS",
+   "witness": "PASS",
+   "directions": "PASS",
+   "algebra": "PASS",
+   "quartic_profiles": "PASS",
+   "point_changes": "PASS",
+   "quartic_pairs": "PASS",
+   "degree6_bound": "PASS",
+   "first56": "PASS",
+   "support6": "PASS",
+   "affine8": "PASS",
+   "rank4": "PASS"
+  },
+  "derived_inequalities": {
+   "A_words_have_min_at_most_38": true,
+   "Apair_36_38: max M over d2=38 members <= 54": true,
+   "Apair_38_38: min N38 > max N54 (both over d2=38 members)": true,
+   "Apair_36_36: min N36 > max N56 (over d2=36, M=56 members)": true,
+   "mixed_36_36: quartic min N36 > degree-six max N56": true,
+   "mixed_38_38: quartic min N38 > degree-six max N54": true,
+   "mixed: quartic d2=40 has M <= 52": true,
+   "mixed: quartic d2=38 has M <= 54": true,
+   "mixed: degree-six d2=38 has M <= 54": true,
+   "values": {
+    "A38_min_N38": 608,
+    "A38_max_N54": 576,
+    "A38_max_M": 54,
+    "six36_min_N36": 512,
+    "six36_max_N56": 16,
+    "r436_min_N36": 60,
+    "r436_max_N56": 12
+   }
+  },
+  "problems": [],
+  "logical_chain": [
+   "deg <= 4: Lemma 3.1 (quartic_pairs)",
+   "deg 5: Section 7 statement 1 (directions) -> two quartics (quartic_pairs) or two rank-four quintics (Lemma 6.1: rank4 + derived)",
+   "deg 6: both restrictions of degree six (Lemma 6.1: degree6_bound, support6, affine8, first56)",
+   "deg 7: G a not in {0,v} -> Lemma 6.1; otherwise two-point reduction (algebra) and Section 7 statement 2 -> Lemma 6.2 (mixed) / 6.1 / 5.1 (point_changes)",
+   "odd words: d_2(F) <= d_2(F + delta_p) + 1 <= 91",
+   "lower bound: witness has distance 88 (witness)"
+  ],
+  "external_inputs": [
+   "completeness of the Gillot-Langevin RM(4,7)/RM(2,7) catalogue (68,443 classes)",
+   "completeness of Langevin's RM(6,6)/RM(2,6) (205) and RM(6,6)/RM(1,6) (150,357) catalogues",
+   "completeness of the Brier-Langevin cubic-form classification (349 forms in 9 variables)",
+   "rho(1,7) = 56 (Mykkeltveit 1980; Hou 1996)",
+   "rho(4,7) = 8 / the quartic-distance formula of Sec. 3.2 (algebraic)",
+   "the algebraic reductions of the paper (split formula, moment and support arguments)"
+  ],
+  "conclusion": "88 <= rho(2,8) <= 91; even-weight words have distance <= 90"
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e3eb0766897e51e583bfc8aaf1b823e25f19481603618f9f891c9bcc757ff15e",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T16:53:07.885326+00:00",
+ "wall_seconds": 0.03
+}

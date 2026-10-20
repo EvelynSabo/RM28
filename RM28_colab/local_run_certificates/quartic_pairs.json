@@ -1,0 +1,216 @@
+{
+ "certificate": "quartic_pairs",
+ "claim": "Quartic pair theorem (Lemma 3.1)",
+ "status": "PASS",
+ "results": {
+  "unequal_distances": {
+   "min<=34": "34+56=90",
+   "36/38": "36+54",
+   "36/40": "36+52",
+   "38/40": "38+52"
+  },
+  "distance_36": {
+   "classes": 1636,
+   "unordered_pairs": 1339066,
+   "cardinality": 1337840,
+   "star_matching": 1221,
+   "residual": [
+    {
+     "L_g": 1024,
+     "H_h": 24576,
+     "L_h": 1024,
+     "H_g": 24576,
+     "affdim_L_g": 10,
+     "affdim_H_h": 18,
+     "affdim_L_h": 10,
+     "affdim_H_g": 18,
+     "ann_dims": [
+      3,
+      11,
+      3,
+      11
+     ],
+     "annihilator_rank_test_forward": "skipped",
+     "annihilator_rank_test_reverse": "skipped",
+     "column_normalisation_generators": 2,
+     "search_seconds": 7.85,
+     "search_stats": {
+      "inner_nodes": 13735,
+      "complete_maps": 1344,
+      "maps_passing_leaf_tests": 728,
+      "t_candidates": 17891328,
+      "t_passing_inclusions": 2359296,
+      "full_split_checks": 2359296
+     },
+     "obstruction": "exhaustive_relative_position_search",
+     "pair": [
+      4,
+      4
+     ]
+    },
+    {
+     "L_g": 128,
+     "H_h": 512,
+     "L_h": 128,
+     "H_g": 512,
+     "affdim_L_g": 15,
+     "affdim_H_h": 12,
+     "affdim_L_h": 15,
+     "affdim_H_g": 12,
+     "obstruction": "affine_hull_dimension",
+     "pair": [
+      67986,
+      67986
+     ]
+    },
+    {
+     "L_g": 128,
+     "H_h": 2048,
+     "L_h": 128,
+     "H_g": 512,
+     "affdim_L_g": 15,
+     "affdim_H_h": 18,
+     "affdim_L_h": 13,
+     "affdim_H_g": 12,
+     "obstruction": "affine_hull_dimension",
+     "pair": [
+      67986,
+      68382
+     ]
+    },
+    {
+     "L_g": 128,
+     "H_h": 2048,
+     "L_h": 128,
+     "H_g": 2048,
+     "affdim_L_g": 13,
+     "affdim_H_h": 18,
+     "affdim_L_h": 13,
+     "affdim_H_g": 18,
+     "ann_dims": [
+      3,
+      8,
+      3,
+      8
+     ],
+     "annihilator_rank_test_forward": "obstructed",
+     "obstruction": "annihilator_rank_distribution",
+     "pair": [
+      68382,
+      68382
+     ]
+    },
+    {
+     "L_g": 768,
+     "H_h": 5120,
+     "L_h": 768,
+     "H_g": 5120,
+     "affdim_L_g": 16,
+     "affdim_H_h": 17,
+     "affdim_L_h": 16,
+     "affdim_H_g": 17,
+     "ann_dims": [
+      4,
+      5,
+      4,
+      5
+     ],
+     "annihilator_rank_test_forward": "possible",
+     "annihilator_rank_test_reverse": "possible",
+     "column_normalisation_generators": 5,
+     "search_seconds": 0.09,
+     "search_stats": {
+      "inner_nodes": 34208,
+      "complete_maps": 0,
+      "maps_passing_leaf_tests": 0,
+      "t_candidates": 0,
+      "t_passing_inclusions": 0,
+      "full_split_checks": 0
+     },
+     "obstruction": "exhaustive_relative_position_search",
+     "pair": [
+      68385,
+      68385
+     ]
+    }
+   ]
+  },
+  "distance_38": {
+   "classes": 33,
+   "unordered_pairs": 561,
+   "cardinality": 362,
+   "star_matching": 199,
+   "residual": []
+  },
+  "distance_40": {
+   "classes": 4,
+   "unordered_pairs": 10,
+   "cardinality": 4,
+   "star_matching": 5,
+   "residual": [
+    {
+     "L_g": 11264,
+     "H_h": 108544,
+     "L_h": 11264,
+     "H_g": 108544,
+     "affdim_L_g": 17,
+     "affdim_H_h": 19,
+     "affdim_L_h": 17,
+     "affdim_H_g": 19,
+     "ann_dims": [
+      2,
+      4,
+      2,
+      4
+     ],
+     "annihilator_rank_test_forward": "possible",
+     "annihilator_rank_test_reverse": "possible",
+     "column_normalisation_generators": 3,
+     "search_seconds": 125.65,
+     "search_stats": {
+      "inner_nodes": 67416,
+      "complete_maps": 55296,
+      "maps_passing_leaf_tests": 55296,
+      "t_candidates": 6002049024,
+      "t_passing_inclusions": 0,
+      "full_split_checks": 0
+     },
+     "obstruction": "exhaustive_relative_position_search",
+     "pair": [
+      68380,
+      68380
+     ]
+    }
+   ]
+  },
+  "paper_values": {
+   "36": {
+    "cardinality": 1337840,
+    "stars": 1220,
+    "residual": 6
+   },
+   "38": {
+    "cardinality": 362,
+    "stars": 199
+   },
+   "40": {
+    "star": 9,
+    "residual": 1
+   }
+  }
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e28ce4db195f5c49a65072dd76a7057ab3067300fdb64cd2456bc8e4a70e4272",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T04:18:35.553358+00:00",
+ "wall_seconds": 204.07
+}

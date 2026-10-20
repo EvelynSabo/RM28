@@ -1,0 +1,57 @@
+{
+ "certificate": "witness",
+ "claim": "rho(2,8) >= 88: d_2(w) = 88 for the cubic witness",
+ "status": "PASS",
+ "results": {
+  "anf": "abc+adg+afh+agh+bdh+beg+ceh+def",
+  "truth_hex": "01010101010101fe015432670154329801320e3d54675b975432680e01673da4",
+  "decoders": {
+   "walsh_split6": {
+    "distance": 88,
+    "max_correlation": 80,
+    "nearest_quadratic_count": 28672,
+    "minimising_homogeneous_parts": 13824,
+    "max_abs_correlation_histogram": {
+     "48": 74240,
+     "56": 471040,
+     "64": 1164288,
+     "72": 373760,
+     "80": 13824
+    }
+   },
+   "direct_popcount": {
+    "distance": 88,
+    "max_correlation": 80,
+    "nearest_quadratic_count": 28672,
+    "minimising_homogeneous_parts": 13824,
+    "max_abs_correlation_histogram": {
+     "48": 74240,
+     "56": 471040,
+     "64": 1164288,
+     "72": 373760,
+     "80": 13824
+    }
+   }
+  },
+  "explicit_nearest_quadratic_anf": "h+ah+ch+fh+gh",
+  "paper_values": {
+   "distance": 88,
+   "max_correlation": 80,
+   "nearest_count": 28672
+  }
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "25f3ae0f01c8fb579d686c16dcf20c9359b12616eda1fedf736702a49b914e89",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T04:07:00.884387+00:00",
+ "wall_seconds": 2.57
+}

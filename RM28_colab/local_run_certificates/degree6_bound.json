@@ -1,0 +1,575 @@
+{
+ "certificate": "degree6_bound",
+ "claim": "Degree-six seven-variable words have d_2 <= 38",
+ "status": "PASS",
+ "results": {
+  "classes": 205,
+  "odd_classes": 85,
+  "unordered_odd_pairs": 3655,
+  "obstructions": {
+   "triangle": 3607,
+   "cardinality": 8,
+   "star_maxima_matching": 22,
+   "affine_hull_dimension": 15,
+   "exhaustive_relative_position_search": 3
+  },
+  "pairs_beyond_cardinality_and_dimension": [
+   {
+    "L_g": 112,
+    "H_h": 1088,
+    "L_h": 16,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 5,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     132
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "bcd+abcd+ace+abf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 288,
+    "L_h": 4,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 12,
+    "affdim_L_h": 3,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     142
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abcd+bde+bcf+aef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 544,
+    "L_h": 10,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 14,
+    "affdim_L_h": 6,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     171
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "bce+ade+abde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 512,
+    "L_h": 4,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 13,
+    "affdim_L_h": 3,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     172
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "ace+bde+abde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 344,
+    "L_h": 4,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 3,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     175
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abc+abe+abde+cde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 368,
+    "L_h": 6,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 5,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     177
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abe+bce+abde+cde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 576,
+    "L_h": 4,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 3,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     178
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "ace+bce+bde+abde+bcf+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 352,
+    "L_h": 2,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 1,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     182
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abe+abde+cde+bcf+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 292,
+    "L_h": 3,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 2,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     184
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abde+cde+abcf+bdf+aef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 300,
+    "L_h": 7,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 6,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     185
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "bcd+abde+cde+abcf+bdf+aef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 300,
+    "L_h": 1,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 0,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     186
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abc+bcd+abde+cde+abcf+bdf+aef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 271,
+    "L_h": 5,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 4,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     193
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abd+ace+bcde+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 381,
+    "L_h": 7,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 6,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     194
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abd+acd+ace+bcde+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 325,
+    "L_h": 1,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 0,
+    "affdim_H_g": 6,
+    "ann_dims": [
+     0,
+     3,
+     9,
+     15
+    ],
+    "annihilator_rank_test_forward": "possible",
+    "annihilator_rank_test_reverse": "skipped",
+    "column_normalisation_generators": 3,
+    "search_seconds": 0.66,
+    "search_stats": {
+     "inner_nodes": 621376,
+     "complete_maps": 602112,
+     "maps_passing_leaf_tests": 114688,
+     "t_candidates": 37273600,
+     "t_passing_inclusions": 0,
+     "full_split_checks": 0
+    },
+    "obstruction": "exhaustive_relative_position_search",
+    "pair": [
+     123,
+     200
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abd+acd+ace+bcde+bcf+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 289,
+    "L_h": 3,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 2,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     201
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "abd+acd+abe+ace+bcde+bcf+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 429,
+    "L_h": 6,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 15,
+    "affdim_L_h": 5,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     202
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "acd+ade+bcde+bcf+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 112,
+    "H_h": 304,
+    "L_h": 7,
+    "H_g": 64,
+    "affdim_L_g": 12,
+    "affdim_H_h": 12,
+    "affdim_L_h": 3,
+    "affdim_H_g": 6,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     123,
+     203
+    ],
+    "anfs": [
+     "bcd+ace+abf+abcdef",
+     "ace+bde+bcde+bcf+acdf+abef+abcdef"
+    ]
+   },
+   {
+    "L_g": 1008,
+    "H_h": 10416,
+    "L_h": 1008,
+    "H_g": 10416,
+    "affdim_L_g": 15,
+    "affdim_H_h": 15,
+    "affdim_L_h": 15,
+    "affdim_H_g": 15,
+    "ann_dims": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "annihilator_rank_test_forward": "possible",
+    "annihilator_rank_test_reverse": "possible",
+    "column_normalisation_generators": 2,
+    "search_seconds": 17.02,
+    "search_stats": {
+     "inner_nodes": 802818,
+     "complete_maps": 774144,
+     "maps_passing_leaf_tests": 774144,
+     "t_candidates": 8063483904,
+     "t_passing_inclusions": 0,
+     "full_split_checks": 0
+    },
+    "obstruction": "exhaustive_relative_position_search",
+    "pair": [
+     125,
+     125
+    ],
+    "anfs": [
+     "ace+bce+bde+bcf+adf+abcdef",
+     "ace+bce+bde+bcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 96,
+    "H_h": 1024,
+    "L_h": 96,
+    "H_g": 1024,
+    "affdim_L_g": 11,
+    "affdim_H_h": 14,
+    "affdim_L_h": 11,
+    "affdim_H_g": 14,
+    "ann_dims": [
+     1,
+     4,
+     1,
+     4
+    ],
+    "annihilator_rank_test_forward": "possible",
+    "annihilator_rank_test_reverse": "possible",
+    "column_normalisation_generators": 3,
+    "search_seconds": 0.0,
+    "search_stats": {
+     "inner_nodes": 12,
+     "complete_maps": 0,
+     "maps_passing_leaf_tests": 0,
+     "t_candidates": 0,
+     "t_passing_inclusions": 0,
+     "full_split_checks": 0
+    },
+    "obstruction": "exhaustive_relative_position_search",
+    "pair": [
+     133,
+     133
+    ],
+    "anfs": [
+     "abcd+bce+ade+abf+abcdef",
+     "abcd+bce+ade+abf+abcdef"
+    ]
+   },
+   {
+    "L_g": 96,
+    "H_h": 512,
+    "L_h": 72,
+    "H_g": 1024,
+    "affdim_L_g": 11,
+    "affdim_H_h": 13,
+    "affdim_L_h": 11,
+    "affdim_H_g": 14,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     133,
+     170
+    ],
+    "anfs": [
+     "abcd+bce+ade+abf+abcdef",
+     "bcd+ace+ade+abde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 96,
+    "H_h": 544,
+    "L_h": 40,
+    "H_g": 1024,
+    "affdim_L_g": 11,
+    "affdim_H_h": 14,
+    "affdim_L_h": 13,
+    "affdim_H_g": 14,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     133,
+     180
+    ],
+    "anfs": [
+     "abcd+bce+ade+abf+abcdef",
+     "bcd+ace+ade+bde+abde+bcf+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 72,
+    "H_h": 512,
+    "L_h": 72,
+    "H_g": 512,
+    "affdim_L_g": 11,
+    "affdim_H_h": 13,
+    "affdim_L_h": 11,
+    "affdim_H_g": 13,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     170,
+     170
+    ],
+    "anfs": [
+     "bcd+ace+ade+abde+abcf+adf+abcdef",
+     "bcd+ace+ade+abde+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 72,
+    "H_h": 544,
+    "L_h": 40,
+    "H_g": 512,
+    "affdim_L_g": 11,
+    "affdim_H_h": 14,
+    "affdim_L_h": 13,
+    "affdim_H_g": 13,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     170,
+     180
+    ],
+    "anfs": [
+     "bcd+ace+ade+abde+abcf+adf+abcdef",
+     "bcd+ace+ade+bde+abde+bcf+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 40,
+    "H_h": 544,
+    "L_h": 40,
+    "H_g": 544,
+    "affdim_L_g": 13,
+    "affdim_H_h": 14,
+    "affdim_L_h": 13,
+    "affdim_H_g": 14,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     180,
+     180
+    ],
+    "anfs": [
+     "bcd+ace+ade+bde+abde+bcf+abcf+adf+abcdef",
+     "bcd+ace+ade+bde+abde+bcf+abcf+adf+abcdef"
+    ]
+   },
+   {
+    "L_g": 66,
+    "H_h": 414,
+    "L_h": 66,
+    "H_g": 414,
+    "affdim_L_g": 15,
+    "affdim_H_h": 15,
+    "affdim_L_h": 15,
+    "affdim_H_g": 15,
+    "obstruction": "star_maxima_matching",
+    "pair": [
+     204,
+     204
+    ],
+    "anfs": [
+     "abd+abe+bce+cde+bcde+abf+cdf+acdf+abef+abcdef",
+     "abd+abe+bce+cde+bcde+abf+cdf+acdf+abef+abcdef"
+    ]
+   }
+  ],
+  "paper_values": {
+   "odd_classes": 85,
+   "pairs": 3655,
+   "beyond_cardinality_and_dimension": 8
+  }
+ },
+ "inputs": {
+  "class-3-6.txt": {
+   "file": "class-3-6.txt",
+   "bytes": 47698,
+   "sha256": "446a5a43cf091d967d236f751416dd3f00cd3f9af1cd20091f290c8f884cf2eb",
+   "source": "http://langevin.univ-tln.fr/project/agl/class-3-6.txt",
+   "description": "Langevin: six-variable functions modulo RM(2,6) under AGL(6,2), 205 classes"
+  }
+ },
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e28ce4db195f5c49a65072dd76a7057ab3067300fdb64cd2456bc8e4a70e4272",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T04:18:53.997222+00:00",
+ "wall_seconds": 18.44
+}

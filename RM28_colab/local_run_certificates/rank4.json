@@ -1,0 +1,87 @@
+{
+ "certificate": "rank4",
+ "claim": "Rank-four quintics: d_2 <= 38, (r438), and Lemma 3.3 (r436)",
+ "status": "PASS",
+ "results": {
+  "kind": "rank4",
+  "support_size": 6,
+  "predicate": "zero_sum",
+  "target_distance": 36,
+  "bank_max_weight": 42,
+  "classes_required": 64378,
+  "classes_done": 64378,
+  "dfs_nodes": 189112223390,
+  "exact_survivors": 2923088,
+  "cpu_seconds": 35197.2,
+  "crosschecked_classes": 3518,
+  "by_quartic_distance": {
+   "30": {
+    "classes": 14996,
+    "exact_survivors": 121213,
+    "cpu_seconds": 1629.8
+   },
+   "32": {
+    "classes": 29551,
+    "exact_survivors": 1069097,
+    "cpu_seconds": 16185.2
+   },
+   "34": {
+    "classes": 18158,
+    "exact_survivors": 1395011,
+    "cpu_seconds": 14641.4
+   },
+   "36": {
+    "classes": 1636,
+    "exact_survivors": 327611,
+    "cpu_seconds": 2683.7
+   },
+   "38": {
+    "classes": 33,
+    "exact_survivors": 6777,
+    "cpu_seconds": 50.7
+   },
+   "40": {
+    "classes": 4,
+    "exact_survivors": 3379,
+    "cpu_seconds": 6.5
+   }
+  },
+  "d2_36_supports": 2923065,
+  "first56_positive_supports": 5199,
+  "min_N36_when_M56": 60,
+  "max_N56_when_M56": 12,
+  "d2_at_least_38_supports": 23,
+  "max_d2": 38,
+  "d38": {
+   "count": 23,
+   "max_M": 54,
+   "min_N38": 608,
+   "max_N54": 576
+  },
+  "paper_values": {
+   "retained_supports": 2887059,
+   "first56_profiles": 5155,
+   "min_N36": 60,
+   "max_N56": 12,
+   "d38": {
+    "M": 54,
+    "N38": 608,
+    "N54": 576
+   }
+  }
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e3eb0766897e51e583bfc8aaf1b823e25f19481603618f9f891c9bcc757ff15e",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T16:52:32.034266+00:00",
+ "wall_seconds": 7967.58
+}

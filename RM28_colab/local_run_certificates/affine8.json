@@ -1,0 +1,87 @@
+{
+ "certificate": "affine8",
+ "claim": "Degree-six words u + 1_E, E an affine basis, around quartics with d_2 >= 30 (six38)",
+ "status": "PASS",
+ "results": {
+  "kind": "affine8",
+  "support_size": 8,
+  "predicate": "affine_independent",
+  "target_distance": 38,
+  "bank_max_weight": 44,
+  "classes_required": 64378,
+  "classes_done": 64378,
+  "dfs_nodes": 45552719834,
+  "exact_survivors": 0,
+  "cpu_seconds": 68800.9,
+  "crosschecked_classes": 0,
+  "by_quartic_distance": {
+   "30": {
+    "classes": 14996,
+    "exact_survivors": 0,
+    "cpu_seconds": 6755.7
+   },
+   "32": {
+    "classes": 29551,
+    "exact_survivors": 0,
+    "cpu_seconds": 7215.1
+   },
+   "34": {
+    "classes": 18158,
+    "exact_survivors": 0,
+    "cpu_seconds": 53164.2
+   },
+   "36": {
+    "classes": 1636,
+    "exact_survivors": 0,
+    "cpu_seconds": 1643.6
+   },
+   "38": {
+    "classes": 33,
+    "exact_survivors": 0,
+    "cpu_seconds": 15.4
+   },
+   "40": {
+    "classes": 4,
+    "exact_survivors": 0,
+    "cpu_seconds": 6.7
+   }
+  },
+  "degree_six_words_d2_ge_38": 0,
+  "max_d2": null,
+  "d38": {
+   "count": 0,
+   "max_M": null,
+   "min_N38": null,
+   "max_N54": null
+  },
+  "quartic_distance_8_words": 0,
+  "paper_values": {
+   "six38": {
+    "M": 54,
+    "N38": 968,
+    "N54": 8
+   },
+   "covering_list_sizes": [
+    768,
+    1677,
+    824,
+    122,
+    58
+   ]
+  }
+ },
+ "inputs": {},
+ "environment": {
+  "script": "rm28_verify.py",
+  "script_version": "1.0.0",
+  "script_sha256": "e3eb0766897e51e583bfc8aaf1b823e25f19481603618f9f891c9bcc757ff15e",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 20,
+  "numba_threads": 20
+ },
+ "finished_utc": "2026-10-19T16:52:31.636843+00:00",
+ "wall_seconds": 7967.18
+}
